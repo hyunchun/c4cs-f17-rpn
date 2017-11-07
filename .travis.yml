@@ -1,5 +1,8 @@
 language: Python3
 Python3:
         "3.5.2"
+install:
+        - apt-get install python3-pip
+        - pip3 install termcolor
 script:
         - make test
