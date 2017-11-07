@@ -1,0 +1,5 @@
+language: Python3
+Python3:
+        "3.5.2"
+script:
+        - make test
