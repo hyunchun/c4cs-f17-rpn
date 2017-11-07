@@ -6,6 +6,7 @@ import sys
 ops = {
     '+': operator.add,
     '-': operator.sub,
+    '^': operator.pow,
 }
 
 def calculate(myarg):
